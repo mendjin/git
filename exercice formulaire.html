@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 strict//EN"
+"http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+  <title>Bienvenue sur mon site !</title>
+  <meta http-equiv="content-Type" content="test/html; chaeset=iso-8859-1" />
+</head>
+<body>
+<form method="post" action="traitement.php">
+<p>
+<label for="NOM"> NOM:</label>
+<input type="text" name="NOM" id="NOM"/>
+</p>
+<p>
+<label for="PRENOM"> PRENOM:</label>
+<input type="text" name="PRENOM" id="PRENOM"/>
+</p>
+<p>
+<label for="Date et lieu de naissance"> Date et lieu de naissance:</label>
+<input type="text" name="Date et lieu de naissance" id="Date et lieu de naissance"/>
+</p>
+<p>
+<label for="sexe"> sexe:</label>
+<input type="radio" name="sexe" value="masculin" id="masculin"/><label for="masculin">masculin </label>
+<input type="radio" name="sexe" value="feminin" id=" feminin"/><label for="feminin"> feminin </label>
+<p> CURSUS SCOLAIRE </P>
+<P>
+<label for="Diplome"> Diplome:</label>
+<input type="checkbox" name="CEP" id="CEP"/><label for="CEP"> CEP</label>
+<input type="checkbox" name="BEPC" id="BEPC"/><label for="BEPC"> BEPC</label>
+<input type="checkbox" name="BAC" id="BAC"/><label for="BAC"> BAC</label>
+<input type="checkbox" name="Licence" id="Licence"/><label for="Licence"> Licence</label>
+</p>
+<p>
+<label for="LANGUES"> LANGUES:</label>
+<input type="checkbox" name="Français" id="Francais"/><label for="Francais"> Francais</label>
+<input type="checkbox" name="Anglais" id="Anglais"/><label for="Anglais"> Anglais</label>
+<input type="checkbox" name="Allemand" id="Allemand"/><label for="Allemand"> Allemand</label>
+</p>
+<p>
+<label for="Decrivez-vous"> Decrivez-vous </label>
+<textarea name=" Decrivez-vous" id="Decrivez-vous" placeholder=" "></textarea>
+</p>
+<p>
+<input type="submit" value="Envoyer"/>
+<input type="submit" value="annuler"/>
+</form>
